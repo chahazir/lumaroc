@@ -1,0 +1,128 @@
+
+/*global*/
+.heading-site{
+	text-align: center;
+	font-family: 'Audiowide', cursive;
+}
+
+.font{
+	font-family: 'Ubuntu', sans-serif;
+}
+.la{
+	background-image: src/img/bglemonde.jpg;
+}
+
+/*header*/
+
+.header{
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+	height: 70px;
+	line-height: 70px;
+	background-color:rgb(0,0,0,0);
+	position:relative;
+	top:0;
+	z-index: 999;
+}
+
+.header .header-logo {
+	color: #182C61;
+	font-family: 'Audiowide', cursive;
+	font-size: 30px;
+	float: left;
+	margin-left: 30px;
+}
+
+.header .header-menu {
+	float: right;
+	margin-right: 30px;
+}
+
+.header .header-menu a {
+	margin-right: 15px;
+	color: #B33771;
+    font-family: 'Audiowide', cursive;
+}
+
+.header .header-menu a:hover {
+	color:rgb(82, 17, 112);
+}
+
+.d {
+	font-family: 'Ma Shan Zheng', cursive;
+}
+/*fin header*/
+
+/*banner*/
+
+.image {
+    border-radius: 50%;
+	width:auto;
+    
+  }
+
+
+.marg {
+	margin-left: -7px;
+	padding: auto;
+	margin-top: 40px; 
+}
+
+/*fin banner*/
+.k{
+	text-decoration-color:rgb(36, 8, 73)
+}
+
+/*about*/
+
+.about .about-single-element .icon {
+	font-size: 30px;
+	text-align: center;
+}
+
+.about .about-single-element  {
+	text-align: center;
+}
+
+.about .about-single-element p{
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+
+/*footer*/
+ 
+.footer .footer-informations{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.footer .footer-informations ul {
+ padding: 0;
+
+}
+
+.footer .footer-informations ul li {
+display:inline-block; 
+list-style-type: none;
+}
+
+/*page2*/
+
+.notification{
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 40px;
+	text-align: center;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
